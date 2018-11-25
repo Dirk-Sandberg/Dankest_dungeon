@@ -1,0 +1,5 @@
+XSym
+0056
+dd36c085c24e1fdc1c15729556fdee71
+/Users/Erik/anaconda/envs/py27/lib/python2.7/copy_reg.py
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                       

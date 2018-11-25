@@ -1,0 +1,5 @@
+XSym
+0052
+331a83323bebf7588ec11b1d9210d986
+/Users/Erik/anaconda/envs/py27/lib/python2.7/stat.py
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                           

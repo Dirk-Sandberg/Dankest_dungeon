@@ -1,0 +1,22 @@
+import sys,time,select
+
+anidle = 0.0
+
+while True:
+        time.sleep(0.01)
+
+            incoming = select.select([sys.stdin],[],[],0.0)[0]
+            if len(incoming) > 0:
+                        anidle = 0.0
+                                aline = sys.stdin.readline()
+
+                                        # process the input here
+                                                print 'Input:', aline
+                                                        break
+
+                                                        anidle += 0.01
+                                                        if anidle > 4:
+
+                                                                    # process no input for 4 seconds here
+                                                                            print 'No input.'
+                                                                                    break

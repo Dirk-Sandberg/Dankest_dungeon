@@ -1,0 +1,5 @@
+XSym
+0059
+6b314b0430f91ac39b255bda5ab6d6bc
+/Users/Erik/anaconda/envs/py27/lib/python2.7/_weakrefset.py
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    

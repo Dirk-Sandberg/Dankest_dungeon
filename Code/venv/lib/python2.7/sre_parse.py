@@ -1,0 +1,5 @@
+XSym
+0057
+774f9888db426f64bd290b4fec0ebe8b
+/Users/Erik/anaconda/envs/py27/lib/python2.7/sre_parse.py
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      

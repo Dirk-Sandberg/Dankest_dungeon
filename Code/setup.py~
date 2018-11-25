@@ -1,0 +1,14 @@
+import sys
+from cx_Freeze import setup, Executable
+base = None
+if sys.platform == 'win32':
+    base='Win32GUI'
+
+#APP = ['dankest_dungeon.py']
+#DATA_FILES = []
+#OPTIONS = {'argv_emulation': True}
+
+setup(
+    name="Dankest_Dungeon",
+    executables = [Executable('dankest_dungeon.py')])
+
