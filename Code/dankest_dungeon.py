@@ -72,11 +72,11 @@ archery_intro()
 show_target(user,haybail)
 # got past the haybail
 clear()
-print 'YOU ARE THE HAYBAIL CHAMP!'
+print('YOU ARE THE HAYBAIL CHAMP!')
 time.sleep(3)
 if user.haybailchamp:
     #clear()
-    print 'GAME OVER'
+    print('GAME OVER')
     time.sleep(3)
     #running(user,outdoors)
 

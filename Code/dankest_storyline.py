@@ -6,32 +6,32 @@ import time
 from dungeon_functions import clear
 
 def p(): # press a key
-    print ''
-    print ''
-    print ''
-    print ''
-    print ''
-    print ''
-    print ''
-    print 'Press [return] to continue.'
-    key = raw_input()
+    print('')
+    print('')
+    print('')
+    print('')
+    print('')
+    print('')
+    print('')
+    print('Press [return] to continue.')
+    key = input()
     clear()
 
 def archery_intro():
     clear()
-    print "Your superboots run out of juice, but fortunately you're safe now. "
+    print("Your superboots run out of juice, but fortunately you're safe now. ")
     archery()
     p()
-    print 'Up ahead a ways you see a small archery range.'
+    print('Up ahead a ways you see a small archery range.')
     archery1()
     p()
-    print 'A robot greets you. *beep bop*'
+    print('A robot greets you. *beep bop*')
     archery2()
     p()
-    print '*beep* Hello, traveler. No one has come to visit me for many years. '
+    print('*beep* Hello, traveler. No one has come to visit me for many years. ')
     archery2()
     p()
-    print  "*boop* I would love to make a new friend. *bop*"
+    print("*boop* I would love to make a new friend. *bop*")
     archery3()
     p()
 
@@ -39,89 +39,89 @@ def archery_intro():
     choice = ''
     while choice == '' or choice == '1' or choice == '2':
         clear()
-        print "Perhaps I could invite you to play robo boogie?"
+        print("Perhaps I could invite you to play robo boogie?")
         archery2()
-        print ''
-        print ''
-        print ''
-        print ''
-        print ''
-        print ''
-        print ''
-        print '[1] What is robo boogie? '
-        print '[2] What is your name? '
-        print '[3] Of course! '
+        print('')
+        print('')
+        print('')
+        print('')
+        print('')
+        print('')
+        print('')
+        print('[1] What is robo boogie? ')
+        print('[2] What is your name? ')
+        print('[3] Of course! ')
         #p()
-        choice = raw_input()
+        choice = input()
         if choice == '1':
             clear()
-            print 'Robo boogie is what humans call "archery", I *boop* believe.'
+            print('Robo boogie is what humans call "archery", I *boop* believe.')
             archery2()
             p()
         if choice == '2':
             clear()
-            print 'My name is "beep"! '
+            print('My name is "beep"! ')
             archery3()
             p()
         if choice == '3':
             clear()
-            print '*BEEP BOOP* YAY!'
+            print('*BEEP BOOP* YAY!')
             archery3()
             p()
-            print "I'll teach you how, friendly friend! "
+            print("I'll teach you how, friendly friend! ")
             archery3()
             p()
-            print 'Just press the [return] button to shoot the arrow. '
+            print('Just press the [return] button to shoot the arrow. ')
             archery3()
             p()
-            print 'The wind is blowing strong today though... It might be hard to aim. '
+            print('The wind is blowing strong today though... It might be hard to aim. ')
             archery3()
             p()
-            print 'Try to hit the bullseye or spots just around it! '
+            print('Try to hit the bullseye or spots just around it! ')
             archery3()
             p()
         
 def archery():
-    print ''
-    print '        '
-    print ' \o/    '
-    print '  |     '
-    print '_/ l____'
-    print ''
-    print ''
-    print ''
-    print ''
+    print('')
+    print('        ')
+    print(' \o/    ')
+    print('  |     ')
+    print('_/ l____')
+    print('')
+    print('')
+    print('')
+    print('')
 def archery1():
-    print ''
-    print '                    """      """      """      '
-    print ' \o/               " . "    " . "    " . "     '
-    print '  |                "   "    "   "    "   "     '
-    print '_/ l________________"A"______"A"______"A"______'
-    print ''
-    print ''
-    print ''
-    print ''
+    print('')
+    print('                    """      """      """      ')
+    print(' \o/               " . "    " . "    " . "     ')
+    print('  |                "   "    "   "    "   "     ')
+    print('_/ l________________"A"______"A"______"A"______')
+    print('')
+    print('')
+    print('')
+    print('')
 def archery2():
-    print ''
-    print '      o         o      '
-    print '       \       /       '
-    print '        -"""""-        '
-    print '      /         \      '
-    print '     { [?]  [?]  }     '
-    print '     |    __     |     '
-    print '      H         H      '
-    print '       ^---A---^       '
+    print('')
+    print('      o         o      ')
+    print('       \       /       ')
+    print('        -"""""-        ')
+    print('      /         \      ')
+    print('     { [?]  [?]  }     ')
+    print('     |    __     |     ')
+    print('      H         H      ')
+    print('       ^---A---^       ')
      
 def archery3():
-    print ''
-    print '      o         o      '
-    print '       \       /       '
-    print '        -"""""-        '
-    print '      /         \      '
-    print '     { [^]  [^]  }     '
-    print '     | . \__/ .  |     '
-    print '      H         H      '
-    print '       ^---A---^       '
+    print('')
+    print('      o         o      ')
+    print('       \       /       ')
+    print('        -"""""-        ')
+    print('      /         \      ')
+    print('     { [^]  [^]  }     ')
+    print('     | . \__/ .  |     ')
+    print('      H         H      ')
+    print('       ^---A---^       ')
 
 
 
@@ -153,163 +153,163 @@ def archery3():
 
     
 def building():
-    print '                         '
-    print ' ______________          '
-    print '[ ^     .     .]         '
-    print '[ .         ~  ]         '
-    print '[      []   ___]         '
-    print '[      .   |   |         '
-    print '[   .      |  .|         '
-    print '[_________.|___|         '
+    print('                         ')
+    print(' ______________          ')
+    print('[ ^     .     .]         ')
+    print('[ .         ~  ]         ')
+    print('[      []   ___]         ')
+    print('[      .   |   |         ')
+    print('[   .      |  .|         ')
+    print('[_________.|___|         ')
 
 def building2():
-    print ' ______________          '
-    print '[ ^     .     .]         '
-    print '[ .         ~  ]         '
-    print '[      []   ___]         '
-    print '[      .  /|o  |         '
-    print '[   .    |./|\ |         '
-    print '[________|_|/l_|         '
+    print(' ______________          ')
+    print('[ ^     .     .]         ')
+    print('[ .         ~  ]         ')
+    print('[      []   ___]         ')
+    print('[      .  /|o  |         ')
+    print('[   .    |./|\ |         ')
+    print('[________|_|/l_|         ')
 def building3():
-    print '          ~~~~     ~~                  ~~   \ /  '
-    print ' ______________             ~~~            - o - '
-    print '[ ^     .     .]    ~                       / \  '
-    print '[ .         ~  ]                 ~~              '
-    print '[      []   ___]                                 '
-    print '[      .  /|   |  o7                             '
-    print '[   .    |.|   | /|                              '
-    print '[________|_|___|./ lv  , . .   V.  , _   .  i    '
+    print('          ~~~~     ~~                  ~~   \ /  ')
+    print(' ______________             ~~~            - o - ')
+    print('[ ^     .     .]    ~                       / \  ')
+    print('[ .         ~  ]                 ~~              ')
+    print('[      []   ___]                                 ')
+    print('[      .  /|   |  o7                             ')
+    print('[   .    |.|   | /|                              ')
+    print('[________|_|___|./ lv  , . .   V.  , _   .  i    ')
 def building4():
-    print '          ~~~~     ~~                  ~~   \ /  '
-    print ' ______________             ~~~            - o - '
-    print '[ ^     .     .]    ]~                      / \  '
-    print '[ .         ~  O                 ~~              '
-    print '[      []   __/0\  --                            '
-    print '[      .  /| /000\                         o     '
-    print '[   .    |.|  / l   |-                   /|\     '
-    print '[________|_|_/   l   _-  , . .   V.  ,   / l.  i '    
+    print('          ~~~~     ~~                  ~~   \ /  ')
+    print(' ______________             ~~~            - o - ')
+    print('[ ^     .     .]    ]~                      / \  ')
+    print('[ .         ~  O                 ~~              ')
+    print('[      []   __/0\  --                            ')
+    print('[      .  /| /000\                         o     ')
+    print('[   .    |.|  / l   |-                   /|\     ')
+    print('[________|_|_/   l   _-  , . .   V.  ,   / l.  i ' )
 def outside_intro():
     clear()
     building()
     p()
-    print 'You burst open the dungeon door. A beam of light hits your face.'
+    print('You burst open the dungeon door. A beam of light hits your face.')
     building2()
     p()
-    print "You shield your eyes from the harsh sun. You've made it outside. "
+    print("You shield your eyes from the harsh sun. You've made it outside. ")
     building3()
     p()
-    print 'Suddenly, you hear a thunderous crash from the dungeon. A giant has smashed through the wall! '
+    print('Suddenly, you hear a thunderous crash from the dungeon. A giant has smashed through the wall! ')
     building4()
     p()
-    print "You're on the run!"
+    print("You're on the run!")
     building4()
     p()
     
 
 def intro():
     clear()
-    print 'Ouch... my head really hurts...'
-    print ''
-    print ''
+    print('Ouch... my head really hurts...')
+    print('')
+    print('')
     p()
-    print 'God, what even happened?'
-    print ''
-    print ''
+    print('God, what even happened?')
+    print('')
+    print('')
     p()
-    print 'Where the hell am I?'
-    print ''
-    print ''
+    print('Where the hell am I?')
+    print('')
+    print('')
     p()
-    print 'Last thing I remember was... '
-    print ''
-    print ''
+    print('Last thing I remember was... ')
+    print('')
+    print('')
     p()
-    print 'Last thing I remember was... '
-    print 'Damn. '
-    print ''
+    print('Last thing I remember was... ')
+    print('Damn. ')
+    print('')
     p()
-    print 'Last thing I remember was... '
-    print 'Damn. '
-    print '.'
+    print('Last thing I remember was... ')
+    print('Damn. ')
+    print('.')
     p()
-    print 'Last thing I remember was... '
-    print 'Damn. '
-    print '..'
+    print('Last thing I remember was... ')
+    print('Damn. ')
+    print('..')
     p()
-    print 'Last thing I remember was... '
-    print 'Damn. '    
-    print '...'
+    print('Last thing I remember was... ')
+    print('Damn. '    )
+    print('...')
     p()
-    print 'I remember! I was walking back from the cliffs.'
+    print('I remember! I was walking back from the cliffs.')
     cliffs()
     p()
-    print 'But a giant hole in the ground had been covered up!'
+    print('But a giant hole in the ground had been covered up!')
     cliffs()
     p()
-    print 'I fell through it... but how far down did I go?'
+    print('I fell through it... but how far down did I go?')
     cliffs2()
     p()
-    print 'Best I can remember - really far. '
+    print('Best I can remember - really far. ')
     cliffs3()
     p()
-    print ''
+    print('')
     p()
-    print "And now I'm here. God knows where."
+    print("And now I'm here. God knows where.")
     p()
-    print "It's a little chilly down here... "
+    print("It's a little chilly down here... ")
     p()
-    print '... and dank. '
+    print('... and dank. ')
     p()
-    print 'The floor is tile. Feels like some sort of dungeon.'
+    print('The floor is tile. Feels like some sort of dungeon.')
     p()
-    print '"The dank dungeon".'
+    print('"The dank dungeon".')
     p()
-    print 'Hehehe.. '
+    print('Hehehe.. ')
     p()
-    print 'Oooh! The "Dankest dungeon".'
+    print('Oooh! The "Dankest dungeon".')
     p()
-    print "Yeah, yeah. That's got a nice ring to it. "
+    print("Yeah, yeah. That's got a nice ring to it. ")
     p()
-    print 'I suppose I should light a match, huh? '
+    print('I suppose I should light a match, huh? ')
     p()
     time.sleep(2)
-    print ' --->  T H E   D A N K E S T   D U N G E O N  <---'
+    print(' --->  T H E   D A N K E S T   D U N G E O N  <---')
     time.sleep(3)
 
 def cliffs():
-    print '                                   o   '
-    print '                                   /|\ '
-    print '____________________________._._.__l|  '
-    print '       .               .    {   }    ] '
-    print '                 .          {   }    ] '
-    print '                      .     {   }    ] '
-    print '      .                     {   }    ] '
-    print '            @               {   }    ] '
-    print '                    .       {   }    ] '
-    print '               .            {   }    ] '
-    print '       v                    {   }    ] '
-    print '                 ..         {   }    ] '
+    print('                                   o   ')
+    print('                                   /|\ ')
+    print('____________________________._._.__l|  ')
+    print('       .               .    {   }    ] ')
+    print('                 .          {   }    ] ')
+    print('                      .     {   }    ] ')
+    print('      .                     {   }    ] ')
+    print('            @               {   }    ] ')
+    print('                    .       {   }    ] ')
+    print('               .            {   }    ] ')
+    print('       v                    {   }    ] ')
+    print('                 ..         {   }    ] ')
 def cliffs2():
-    print '                                " @$%! "         '
-    print '                             \o/         '
-    print '____________________________. | .____  '
-    print '                            {/ \}    ] '
-    print '        ~          .        {   }    ] '
-    print '       .                 .  {   }    ] '
-    print '                    v       {   }    ] '
-    print '              .             {   }    ] '
-    print '     .                .     {   }    ] '
-    print '                 .          {   }    ] '
-    print '         .                  {   }    ] '    
+    print('                                " @$%! "         ')
+    print('                             \o/         ')
+    print('____________________________. | .____  ')
+    print('                            {/ \}    ] ')
+    print('        ~          .        {   }    ] ')
+    print('       .                 .  {   }    ] ')
+    print('                    v       {   }    ] ')
+    print('              .             {   }    ] ')
+    print('     .                .     {   }    ] ')
+    print('                 .          {   }    ] ')
+    print('         .                  {   }    ] ')
 def cliffs3():
-    print '                                       '
-    print '                                       '
-    print '____________________________.   .____  '
-    print '        .                   {   }    ] '
-    print '   .          .      o      {   }    ] '
-    print '   .     (                  {   }    ] '
-    print '                 .      ;   {   }    ] '
-    print '          .                 {   }    ] '
-    print '                            {   }    ] '
-    print '   .               .        {\o/}    ] '
-    print '                            { | }    ] '    
+    print('                                       ')
+    print('                                       ')
+    print('____________________________.   .____  ')
+    print('        .                   {   }    ] ')
+    print('   .          .      o      {   }    ] ')
+    print('   .     (                  {   }    ] ')
+    print('                 .      ;   {   }    ] ')
+    print('          .                 {   }    ] ')
+    print('                            {   }    ] ')
+    print('   .               .        {\o/}    ] ')
+    print('                            { | }    ] ' )

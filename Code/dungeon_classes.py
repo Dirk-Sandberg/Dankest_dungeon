@@ -31,30 +31,30 @@ class player():
 
     def gain_exp(self,value):
         self.exp += value
-        print 'You gained ' + str(value) + ' experience.'
+        print('You gained ' + str(value) + ' experience.')
         if self.exp >= self.maxexp:
             self.level_up()
             self.exp = self.exp%self.maxexp
             self.maxexp += 5
-        print str(self.maxexp - self.exp) + ' more experience to level up!'
+        print(str(self.maxexp - self.exp) + ' more experience to level up!')
         
     def lose_health(self,loss_of_health):
         if self.defense >= loss_of_health:
             return
         self.health -= (loss_of_health-self.defense)
-        print 'You lost ' + str(loss_of_health-self.defense) + ' health. '
+        print('You lost ' + str(loss_of_health-self.defense) + ' health. ')
         
     def gain_health(self,gain_of_health):
         self.health += gain_of_health
         if self.health >= 100:
-            print 'You are at max health!'
+            print('You are at max health!')
             time.sleep(2)
             self.health = 100
-            print 'You healed for ' + str(100-gain_of_health)
+            print('You healed for ' + str(100-gain_of_health))
             return
         else:
-            print 'You healed for ' + str(gain_of_health)
-        print 'Current health is now '+ str(self.health)
+            print('You healed for ' + str(gain_of_health))
+        print('Current health is now '+ str(self.health))
 
     def gain_money(self,gain_of_money):
         self.money += gain_of_money
@@ -62,14 +62,14 @@ class player():
         self.money -= loss_of_money
     def lose_health_potion(self,number):
         self.health_potions -= number
-        print 'You have ' + str(self.health_potions) + ' health potions left.'
+        print('You have ' + str(self.health_potions) + ' health potions left.')
         time.sleep(2)
     def level_up(self):
         self.level += 1
         self.damage +=1
         self.defense +=1
         self.add_score(100) # level gives 100 points
-        print 'You reached level ', str(self.level) + '! You have grown in strength.'
+        print('You reached level ', str(self.level) + '! You have grown in strength.')
         time.sleep(2)
     def defeat_monster(self,value):
         self.monster_counter +=1
@@ -85,9 +85,9 @@ class Haybail():
     def lose_health(self,num):
         self.health -= num
         if self.health > 0:
-            print 'Haybail has '+ str(self.health) + ' health remaining.'
+            print('Haybail has '+ str(self.health) + ' health remaining.')
         else:
-            print 'Haybail has been defeated. '
+            print('Haybail has been defeated. ')
             
 class Floor():
     def __init__(self,gridsize_x,gridsize_y,number_of_monsters,monster_positions,starting_position,player_position, sensei_position,stair_position):
@@ -131,39 +131,39 @@ class Sensei():
 
     def lose_health_potion(self,user):
         if user.money < 1:
-            print 'You do not have enough money. '
+            print('You do not have enough money. ')
             return
         if self.available_health_potions > 0:
             user.health_potions +=1
             user.money -= 1 # cost of potion
-            print 'You now have ' + str(user.health_potions) + ' health potions. May they serve you well, adventurer. '
+            print('You now have ' + str(user.health_potions) + ' health potions. May they serve you well, adventurer. ')
         else:
-            print 'I have no more potions for you, small grasshopper. '
+            print('I have no more potions for you, small grasshopper. ')
         self.available_health_potions -= 1
         
 
     def lose_teach_offense(self,user):
         if user.money < 2:
-            print 'You do not have enough money. '
+            print('You do not have enough money. ')
             return
         if self.teach_offense > 0:
             user.damage += 1
             user.money -= 2 # cost of learning
-            print 'You learn quickly. Your damage is now ' + str(user.damage) + '.' 
+            print('You learn quickly. Your damage is now ' + str(user.damage) + '.')
         else:
-            print 'You have gained all of my offensive knowledge. '
+            print('You have gained all of my offensive knowledge. ')
         self.teach_offense -= 1
 
     def lose_teach_defense(self,user):
         if user.money < 2:
-            print 'You do not have enough money. '
+            print('You do not have enough money. ')
             return
         if self.teach_defense > 0:
             user.defense += 1
             user.money -= 2 # cost of learning
-            print 'Well done, light mongoose. You now have ' + str(user.defense) + ' defense. '
+            print('Well done, light mongoose. You now have ' + str(user.defense) + ' defense. ')
         else:
-            print 'You have already learned more defensive tactics than I, young master. '
+            print('You have already learned more defensive tactics than I, young master. ')
             self.teach_defense -= 1
 
 
